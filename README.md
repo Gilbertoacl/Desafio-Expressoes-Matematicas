@@ -7,10 +7,13 @@ Deve ser realizado um programa que resolva expressões matemáticas.
 - `Requisito 2`: O programa poderá resolver apenas uma expressão ou várias, em loop.
 - `Requisito 3`: O programa deverá exibir o passo a passo para resolução da expressão, conforme o exemplo abaixo:
 
-((2+3)x5)^2
-(5x5)^2
+``` shell
+((2+3)*5)^2
+(5*5)^2
 25^2
 625
+```
+
 
 ## Explicação do código
 
