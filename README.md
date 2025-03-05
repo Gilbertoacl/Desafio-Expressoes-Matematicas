@@ -22,7 +22,7 @@ Este programa permite que o usuário insira uma expressão matemática simples, 
 A estrutura do código segue boas práticas de organização e responsabilidade única para cada método, tornando-o mais legível e de fácil manutenção.
 
 ### Separação da expressão em caracteres
-Usando uma Lista para armazenar osa numeros e operadores separadamente, uma ``StringBuilder`` para capturar os números inteiros, com isso percorremos a String caractere por caractere, agrupando os números e armazenando operadores individualmente.
+Usando uma Lista para armazenar osa numeros e operadores separadamente e uma ``StringBuilder`` para capturar os números inteiros, com isso percorremos a String caractere por caractere, agrupando os números e armazenando operadores individualmente.
 
 ```java
 public static List<String> separaCaracteres(String expressao) {
@@ -70,7 +70,6 @@ public static void processarExpressao(String expressao) {
 ```
 
 ###  Encontrar a Operação a ser resolvida
-Aqui idendifico se há parênteses na expressão e, se não houver, escolhemos o operador de maior precedência para calcular primeiro.
 Primeiro, verificamos se há parênteses poriorizando a resolução do que está dentro deles e se não houver parênteses, encontramos o operador de maior precedência.
 
 ```java
